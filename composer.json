@@ -1,0 +1,21 @@
+{
+    "name": "kilyakus/yii2-toastr",
+    "type": "yii2-library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kilyakus",
+            "email": "aleksandr.kilyakov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": ">=2.0.0",
+        "kilyakus/yii2-fonts": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "kilyakus\\toastr\\": "src"
+        }
+    }
+}
