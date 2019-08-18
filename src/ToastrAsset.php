@@ -17,6 +17,6 @@ class ToastrAsset extends \yii\web\AssetBundle
         'kilyakus\fonts\FontAsset'
     ];
     public $jsOptions = array(
-        'position' => \yii\web\View::POS_END
+        'position' => \yii\web\View::POS_HEAD
     );
 }
