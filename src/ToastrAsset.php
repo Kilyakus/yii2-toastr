@@ -1,5 +1,5 @@
 <?php
-namespace kilyakus\base;
+namespace kilyakus\toastr;
 
 class ToastrAsset extends \yii\web\AssetBundle
 {
@@ -12,8 +12,9 @@ class ToastrAsset extends \yii\web\AssetBundle
     ];
     public $js = [
         'build/toastr.min.js',
-    ],
+    ];
     public $depends = [
+        'kilyakus\fonts\FontAsset'
     ];
     public $jsOptions = array(
         'position' => \yii\web\View::POS_END
